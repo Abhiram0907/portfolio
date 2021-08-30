@@ -1,0 +1,501 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300&family=Rampart+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/* Nav Bar */
+
+.max-width
+{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar
+{
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    font-family: 'Oswald', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74) , rgba(56, 56, 56, 0));
+    z-index: 999;
+}
+
+.navbar.sticky
+{
+    padding: 10px 0;
+    background: black;
+}
+
+.navbar .max-width
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar .menu li
+{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a
+{
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: all 0.5s ease-out;
+}
+
+.navbar .menu li a:hover
+{
+    color: peru;
+}
+
+.navbar.sticky li a:hover
+{
+    color: peru;
+}
+
+.navbar .logo a
+{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.logo
+{
+    display: flex;
+    margin: 20px;
+}
+
+.menuICN
+{
+    color: orange;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Main Content */
+
+.home
+{
+    display: flex;
+    background: url("wall3.png") no-repeat center;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Oswald', sans-serif;
+}
+
+.home .max-width
+{
+    margin: auto 0 auto 40px;
+    display: flex;
+    width: 100%;
+}
+
+.home .home_content .text_1
+{
+    margin-left: -3px;
+    font-size: 65px;
+}
+.home .home_content .text_2
+{
+    margin-left: -3px;
+    font-size: 80px;
+}
+
+.home .home_content .text_2 span.sp1
+{
+    background: -webkit-linear-gradient(rgb(236, 92, 25), rgb(236, 148, 32));
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-fill-color: transparent;
+}
+.home .home_content .text_2 span.sp2
+{
+    background: -webkit-linear-gradient(rgb(236, 92, 25), rgb(236, 148, 32));
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-fill-color: transparent;
+}
+
+/* About Me design */
+
+.About
+{
+    background-color: rgb(255, 255, 255);
+}
+
+section.About
+{
+    padding: 150px 0;
+}
+
+.About .title
+{
+    position: relative;
+    font-size: 60px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.About .max-width
+{
+    margin: auto 0 auto 40px;
+    font-family: 'futura', cursive;
+    font-size: 20px;
+    color: peru;
+}
+
+/* Skills section design */
+
+
+.Skills
+{
+    background-color: peru;
+}
+
+section.Skills
+{
+    padding: 150px 0;
+}
+
+.Skills .max-width
+{
+    margin: auto 0 auto 40px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: #fff;
+}
+
+.javaICN:hover, .jsICN:hover, .htmlICN:hover, .cssICN:hover, .sftICN:hover, .rctICN:hover, .sqlICN:hover, .gitICN:hover, .cppICN:hover
+{
+    color: rgb(77, 188, 248);
+}
+
+.Skills .Skills_content .card
+{
+    width: calc(15% - 15px);
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 6px;
+    margin: 0 auto;
+    max-width: 1500px;
+    display: inline-block;
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    font-size: 30px;
+
+}
+
+/* Coursework section design */
+
+.Coursework
+{
+    background-color: rgb(255, 255, 255);
+}
+
+section.Coursework
+{
+    padding: 150px 0;
+}
+
+.Coursework .title
+{
+    position: relative;
+    font-size: 60px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.Coursework .max-width
+{
+    margin: auto 0 auto 40px;
+    font-family: 'futura', cursive;
+    font-size: 20px;
+    color: peru;
+}
+
+.Coursework .Coursework_content .menu li
+{
+    list-style: none;
+}
+
+/* Contact dection design */
+
+.Contact
+{
+    background-color: peru;
+}
+
+.Contact .max-width .Contact_content .socials a
+{
+    color: rgb(0, 0, 0);
+    border-color: black;
+    font-size: 2.5em;
+}
+
+.Contact .max-width .Contact_content .socials a:hover
+{
+    color: rgb(255, 255, 255);
+    border-color: black;
+    font-size: 2.5em;
+}
+
+section.Contact
+{
+    padding: 100px 0;
+}
+
+.Contact .title
+{
+    font-size: 60px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.Contact .max-width
+{
+    margin: auto 0 auto 40px;
+    font-family: 'futura', cursive;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+/* Responsive desing*/
+
+@media(max-width: 670px)
+{
+    .home .home_content .text_1
+    {
+        margin-left: -3px;
+        font-size: 35px;
+    }
+   
+    .home .home_content .text_2
+    {
+        margin-left: -3px;
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 1500px)
+{
+    .Skills .max-width
+    {
+        margin: auto 0 auto 40px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 35px;
+        font-weight: 1000;
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+        color: #fff;
+    }
+
+    .Skills .title
+    {
+        position: relative;
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .Skills .Skills_content .card
+    {
+        width: calc(13% - 15px);
+        background-color: black;
+        border-radius: 6px;
+        padding: 20px 25px;
+        text-align: center;
+        display: inline-block;
+    }
+}
+
+@media(max-width: 1000px)
+{
+    .Skills .max-width
+    {
+        margin: auto 0 auto 40px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 35px;
+        font-weight: 1000;
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+        color: #fff;
+    }
+
+    .Skills .title
+    {
+        position: relative;
+        font-size: 35px;
+        font-weight: 1000;
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .Skills .Skills_content .card
+    {
+        width: calc(13% - 15px);
+        background-color: black;
+        border-radius: 6px;
+        padding: 20px 25px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .About .title
+    {
+        position: relative;
+        font-size: 35px;
+        font-weight: 1000;
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+
+    .About .max-width
+    {
+        margin: auto 0 auto 40px;
+        font-family: 'futura', cursive;
+        font-size: 17px;
+        color: peru;
+    }
+
+    .Coursework .title
+    {
+        position: relative;
+        font-size: 35px;
+        font-weight: 1000;
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+
+    .Coursework .max-width
+    {
+        margin: auto 0 auto 40px;
+        font-family: 'futura', cursive;
+        font-size: 17px;
+        color: peru;
+    }
+
+    .Contact .title
+    {
+        position: relative;
+        font-size: 35px;
+        font-weight: 1000;
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+
+    .Contact .max-width
+    {
+        margin: auto 0 auto 40px;
+        font-family: 'futura', cursive;
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+    }
+}
+
+@media(max-width: 947px)
+{
+    .max-width
+    {
+        padding: 0 50px;
+    }
+ 
+    .menuICN{
+        display: block;
+        z-index: 999;
+    }
+
+    .menuICN i.active::before
+    {
+        content: "\f101";
+    }
+
+    .navbar .menu
+    {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        right: -100%;
+        top: 0;
+        background: rgb(0, 0, 0);
+        text-align: center;
+        padding-top: 200px;
+        transition: all 0.75s ease-out;
+    }
+ 
+    .navbar .menu.active
+    {
+        right: 0;
+    }
+
+    .navbar .menu li
+    {
+        display: block;
+    }
+
+    .navbar .menu li a
+    {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 20px;
+
+    }
+
+    .navbar .logo a
+    {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .navbar.sticky li a:hover
+    {
+        color: rgb(255, 194, 133);
+    }
+
+    .Skills .Skills_content .card
+    {
+        width: calc(13% - 15px);
+        background-color: black;
+        border-radius: 6px;
+        padding: 20px 25px;
+        display: inline-block;
+        text-align: center;
+        grid-template-columns: repeat(1, 2fr);
+    }
+}
