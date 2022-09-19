@@ -136,7 +136,7 @@
 
 /* About Me design */
 
-.About
+/* .About
 {
     background-color: rgb(255, 255, 255);
 }
@@ -163,7 +163,7 @@ section.About
     font-family: 'futura', cursive;
     font-size: 20px;
     color: peru;
-}
+} */
 
 /* Skills section design */
 
@@ -247,7 +247,7 @@ section.Coursework
 
 .Contact
 {
-    background-color: peru;
+    background-color: rgb(255, 255, 255);
 }
 
 .Contact .max-width .Contact_content .socials a
@@ -259,7 +259,7 @@ section.Coursework
 
 .Contact .max-width .Contact_content .socials a:hover
 {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border-color: black;
     font-size: 2.5em;
 }
@@ -284,7 +284,7 @@ section.Contact
     margin: auto 0 auto 40px;
     font-family: 'futura', cursive;
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 /* Responsive desing*/
